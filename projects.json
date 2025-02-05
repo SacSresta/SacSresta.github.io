@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Text Summarization",
+        "description": "Developed a text summarization tool using a pre-trained T5-small transformer model to generate concise and coherent summaries from lengthy documents. The project leverages the transformer’s capability to understand and process natural language effectively, providing high-quality summaries suitable for applications such as content curation, research, and document review. Implemented a Docker setup to ensure smooth deployment and reproducibility, making the solution versatile for integration into various web applications and workflows.",
+        "technologies": ["PyTorch", "HuggingFace", "Docker", "Deep Learning", "NLP", "Large Language Models (LLM)"],
+        "image": "images/text_summarization.jpg",
+        "duration": "Oct 2024 - Oct 2024",
+        "associated_with": "Australian Institute of Higher Education"
+    },
+    {
+        "id": 2,
+        "title": "Basana Boutique",
+        "description": "As the developer of Basana Boutique, an online clothing store, I was responsible for building a fully customized e-commerce platform from the ground up. The project involved designing and implementing a seamless user experience, integrating secure payment gateways, managing product inventories, and ensuring reliable backend performance. Utilizing tools like Python, Django, PostgreSQL, and AWS, I created a scalable solution that blends modern design with efficient functionality, enabling customers to shop for high-quality fashion with ease.",
+        "technologies": ["Django", "PostgreSQL", "AWS", "Python", "Front-End Development", "UI/UX Design"],
+        "image": "images/basana_boutique.jpg",
+        "duration": "Aug 2024 - Sep 2024",
+        "associated_with": "Australian Institute of Higher Education"
+    },
+    {
+        "id": 3,
+        "title": "Movie Recommender System",
+        "description": "I developed a small movie recommender system utilizing machine learning and Natural Language Processing (NLP) techniques to provide personalized movie recommendations based on user preferences. The system analyzes movie descriptions, reviews, and user ratings to identify patterns and similarities, enabling it to suggest films that align with individual tastes. Using Python and various NLP libraries, the project incorporates text processing, sentiment analysis, and machine learning algorithms to enhance the accuracy of recommendations.",
+        "technologies": ["Python", "NLP", "Machine Learning", "Jupyter", "Statistical Modeling"],
+        "image": "images/movie_recommender.jpg",
+        "duration": "Aug 2024 - Aug 2024",
+        "associated_with": "Australian Institute of Higher Education"
+    },
+    {
+        "id": 4,
+        "title": "NNFX Trading Bot",
+        "description": "I built a custom forex trading bot utilizing the OANDA API to automate trading strategies and optimize decision-making in the forex market. The bot leverages technical indicators (NNFX algorithmic system) and real-time market data to analyze trends and execute trades with precision. Developed using Python, it processes large datasets and applies algorithmic logic to make data-driven decisions swiftly.",
+        "technologies": ["Python", "OANDA API", "Quantitative Finance", "Algorithmic Trading", "Financial Data Analysis"],
+        "image": "images/trading_bot.jpg",
+        "duration": "Feb 2024 - May 2024",
+        "associated_with": "Australian Institute of Higher Education"
+    }
+]

@@ -1,0 +1,11 @@
+# Ignore all .log files
+*.log
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore all .DS_Store files (macOS)
+.DS_Store
+
+# Ignore specific files
+Miniconda3-latest-Linux-x86_64.sh

@@ -1,0 +1,14 @@
+[
+    {
+        "year": "2020",
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "University Name",
+        "description": "Focus on software engineering and web development"
+    },
+    {
+        "year": "2022",
+        "degree": "Master's in Software Engineering",
+        "school": "University Name",
+        "description": "Specialized in distributed systems and cloud computing"
+    }
+]

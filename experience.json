@@ -1,0 +1,22 @@
+[
+    {
+        "period": "2022 - Present",
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Company Inc.",
+        "achievements": [
+            "Led development of microservices architecture",
+            "Improved application performance by 40%",
+            "Mentored junior developers"
+        ]
+    },
+    {
+        "period": "2020 - 2022",
+        "title": "Full Stack Developer",
+        "company": "Web Solutions Ltd",
+        "achievements": [
+            "Developed e-commerce platform",
+            "Implemented CI/CD pipeline",
+            "Reduced loading time by 60%"
+        ]
+    }
+]
