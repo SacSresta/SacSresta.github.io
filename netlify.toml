@@ -1,17 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt"
-  publish = "."  # Ensure you specify the correct directory for static files or leave it as "." if none
-
-[functions]
-  directory = "netlify/functions"
-# Let static files be served directly
-[[redirects]]
-  from = "/static/*"
-  to = "/static/:splat"
-  status = 200
-  
-[[redirects]]
-  from = "/*"
-  to = "sacsresta/netlify/functions/flask_app"
-  status = 200
+  [build]
+  command = "pip install -r requirements.txt && python build.py"
+  publish = "build"
 
