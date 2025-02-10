@@ -2,5 +2,3 @@
 command = "pip install -r requirements.txt && python build.py"
 publish = "build"
 
-[build.environment]
-PYTHON_VERSION = "3.11"
