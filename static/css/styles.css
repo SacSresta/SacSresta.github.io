@@ -67,25 +67,24 @@
     display: flex;
     gap: 2rem;
     align-items: center;
-  }
-  
-  .nav-link {
-    position: relative;
-    color: var(--text-color);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 0;
-  }
-  
-  .nav-link::after {
+}
+
+
+.nav-link::after {
     content: '';
     position: absolute;
     bottom: -2px;
+    left: 0; /* Add this to align from left */
     width: 0;
     height: 2px;
     background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
     transition: width 0.3s ease;
-  }
+}
+
+/* Add this to expand from left to right */
+.nav-link:hover::after {
+    width: 100%;
+}
   
   /* Main Content Structure */
   main {
