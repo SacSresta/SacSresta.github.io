@@ -4,7 +4,12 @@
 
 [functions]
   directory = "netlify/functions"
-
+# Let static files be served directly
+[[redirects]]
+  from = "/static/*"
+  to = "/static/:splat"
+  status = 200
+  
 [[redirects]]
   from = "/*"
   to = "/.netlify/functions/flask_app.py"
