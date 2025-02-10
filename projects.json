@@ -6,7 +6,8 @@
         "technologies": ["PyTorch", "HuggingFace", "Docker", "Deep Learning", "NLP", "Large Language Models (LLM)"],
         "image": "images/text_summarization.jpg",
         "duration": "Oct 2024 - Oct 2024",
-        "associated_with": "Australian Institute of Higher Education"
+        "associated_with": "Australian Institute of Higher Education",
+        "github":"https://github.com/SacSresta/Text_summarization"
     },
     {
         "id": 2,
@@ -15,7 +16,9 @@
         "technologies": ["Django", "PostgreSQL", "AWS", "Python", "Front-End Development", "UI/UX Design"],
         "image": "images/basana_boutique.jpg",
         "duration": "Aug 2024 - Sep 2024",
-        "associated_with": "Australian Institute of Higher Education"
+        "associated_with": "Australian Institute of Higher Education",
+        "github":"https://github.com/SacSresta/NNFX-BO.git"
+    
     },
     {
         "id": 3,
@@ -24,7 +27,8 @@
         "technologies": ["Python", "NLP", "Machine Learning", "Jupyter", "Statistical Modeling"],
         "image": "images/movie_recommender.jpg",
         "duration": "Aug 2024 - Aug 2024",
-        "associated_with": "Australian Institute of Higher Education"
+        "associated_with": "Australian Institute of Higher Education",
+        "github": "https://github.com/SacSresta/movie-recommender.git"
     },
     {
         "id": 4,
@@ -33,6 +37,8 @@
         "technologies": ["Python", "OANDA API", "Quantitative Finance", "Algorithmic Trading", "Financial Data Analysis"],
         "image": "images/trading_bot.jpg",
         "duration": "Feb 2024 - May 2024",
-        "associated_with": "Australian Institute of Higher Education"
+        "associated_with": "Australian Institute of Higher Education",
+        "github": "https://github.com/SacSresta/NNFX-BOT.git"
+
     }
 ]
