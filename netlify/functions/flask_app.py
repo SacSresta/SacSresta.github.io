@@ -1,11 +1,12 @@
-import os
-import sys
+# netlify/functions/flask_app.py
+from flask import Flask, jsonify
+from flask_lambda import FlaskLambda
 
-# Adjust the path so that the repository root is available.
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+app = FlaskLambda(__name__)
 
-from app import app
-from serverless_wsgi import handle_request
+@app.route('/')
+def hello():
+    return jsonify({"message": "Hello from Flask!"})
 
-def handler(event, context):
-    return handle_request(app, event, context)
+if __name__ == '__main__':
+    app.run()

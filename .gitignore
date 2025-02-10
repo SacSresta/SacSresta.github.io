@@ -9,3 +9,5 @@ node_modules/
 
 # Ignore specific files
 Miniconda3-latest-Linux-x86_64.sh
+# Local Netlify folder
+.netlify
