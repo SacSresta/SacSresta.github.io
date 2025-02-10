@@ -1,5 +1,3 @@
-# netlify/functions/flask_app.py
-
 from app import app
 from serverless_wsgi import handle_request
 
