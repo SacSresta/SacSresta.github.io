@@ -1,1 +1,6 @@
-flask
+blinker==1.9.0
+click==8.1.8
+Flask==3.1.0
+itsdangerous==2.2.0
+serverless-wsgi==3.0.5
+Werkzeug==3.1.3
