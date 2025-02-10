@@ -63,12 +63,15 @@
     transition: color 0.3s ease;
   }
   
-  .nav-links {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
 
+
+.nav-link {
+    position: relative;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
 
 .nav-link::after {
     content: '';
