@@ -1,6 +1,6 @@
 [build]
   command = "pip install -r requirements.txt"
-  publish = "public"
+  publish = "."
 
 [functions]
   directory = "netlify/functions"
