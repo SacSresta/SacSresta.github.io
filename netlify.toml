@@ -5,7 +5,14 @@
 [functions]
   directory = "netlify/functions"
 
+# Serve static files directly (if you have any)
+[[redirects]]
+  from = "/static/*"
+  to = "/static/:splat"
+  status = 200
+
+# Catch-all rule for your Flask function (do not include the .py extension)
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/flask_app.py"
+  to = "/.netlify/functions/flask_app"
   status = 200
