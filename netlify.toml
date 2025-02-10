@@ -12,5 +12,5 @@
   
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/flask_app.py"
+  to = "/.netlify/functions/flask_app"
   status = 200
