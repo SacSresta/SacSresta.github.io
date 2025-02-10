@@ -1,0 +1,13 @@
+[build]
+  # Run pip install if you need to install dependencies during deployment.
+  command = "pip install -r requirements.txt"
+
+[functions]
+  # Specify the folder where Netlify can find your functions.
+  directory = "netlify/functions"
+
+[[redirects]]
+  # Redirect all incoming requests to the Flask function.
+  from = "/*"
+  to = "/.netlify/functions/flask_app"
+  status = 200
