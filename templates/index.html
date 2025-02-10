@@ -1,4 +1,3 @@
-<!-- index.html -->
 {% extends 'base.html' %}
 
 {% block content %}
@@ -10,7 +9,7 @@
             <div class="title-decoration"></div>
         </div>
         <p class="typing-text">
-            <span class="typed-cursor">></span> 
+            <span class="typed-cursor">></span>
             <span class="typed-words">Data-Scientist | Python Expert | Web Developer</span>
         </p>
         <div class="hero-buttons">
@@ -26,33 +25,90 @@
     </div>
 </section>
 
-<section id="about" class="about glass-card">
-    <div class="section-header">
-        <h2 class="section-title">About Me</h2>
-        <div class="cosmic-line"></div>
-    </div>
-    <div class="about-content">
-        <div class="about-image">
-            <div class="image-frame">
-                <img src="{{ url_for('static', filename='img/profile.jpg') }}" alt="Sacheen Shrestha">
-                <div class="image-glow"></div>
-            </div>
+<section id="about" class="about">
+    <div class="glass-card">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="cosmic-line"></div>
         </div>
-        <div class="about-text">
-            <h3 class="gradient-text">Hello! I'm Sacheen</h3>
-            <p>{{ about_me }}</p>
-            <div class="skills">
-                <h4 class="gradient-text">Technical Skills</h4>
-                <div class="skill-tags">
-                    {% for skill in skills %}
-                    <span class="skill-tag">
-                        <span class="skill-text">{{ skill }}</span>
-                        <span class="skill-glow"></span>
-                    </span>
-                    {% endfor %}
+        <div class="about-content">
+            <div class="profile-card">
+                <div class="image-wrapper">
+                    <img src="{{ url_for('static', filename='img/profile.jpg') }}" 
+                         alt="Sacheen Shrestha" 
+                         class="profile-image">
+                    <div class="image-overlay"></div>
+                </div>
+                <div class="about-text">
+                    <p class="shimmer-text">{{ about_me }}</p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <div class="section-header">
+        <h2 class="section-title">Technical Skillset</h2>
+    </div>
+    <div class="skill-content">
+        {% for category in skills %}
+          <div class="skill-category">
+            <h5 class="skill-category-title">{{ category.category }}</h5>
+            <div class="skill-tags">
+              {% for tool in category.tools %}
+                <span class="skill-tag">
+                  {% if tool|lower == 'tensorflow' %}
+                    <i class="devicon-tensorflow-original colored" title="TensorFlow"></i>
+                    <span class="skill-name">TensorFlow</span>
+                  {% elif tool|lower == 'pytorch' %}
+                    <i class="devicon-pytorch-plain colored" title="PyTorch"></i>
+                    <span class="skill-name">PyTorch</span>
+                  {% elif tool|lower == 'keras' %}
+                    <i class="devicon-keras-plain colored" title="Keras"></i>
+                    <span class="skill-name">Keras</span>
+                  {% elif tool|lower == 'python' %}
+                    <i class="devicon-python-plain colored" title="Python"></i>
+                    <span class="skill-name">Python</span>
+                  {% elif tool|lower == 'javascript' %}
+                    <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                    <span class="skill-name">JavaScript</span>
+                  {% elif tool|lower == 'c++' or tool|lower == 'cplusplus' %}
+                    <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                    <span class="skill-name">C++</span>
+                  {% elif tool|lower == 'java' %}
+                    <i class="devicon-java-plain colored" title="Java"></i>
+                    <span class="skill-name">Java</span>
+                  {% elif tool|lower == 'sql' %}
+                    <i class="devicon-mysql-plain colored" title="SQL"></i>
+                    <span class="skill-name">SQL</span>
+                  {% elif tool|lower == 'rust' %}
+                    <i class="devicon-rust-plain colored" title="Rust"></i>
+                    <span class="skill-name">Rust</span>
+                  {% elif tool|lower == 'aws' %}
+                    <i class="devicon-amazonwebservices-original colored" title="AWS"></i>
+                    <span class="skill-name">AWS</span>
+                  {% elif tool|lower == 'azure' %}
+                    <i class="devicon-azure-plain colored" title="Azure"></i>
+                    <span class="skill-name">Azure</span>
+                  {% elif tool|lower == 'google cloud platforms' or tool|lower == 'google cloud' %}
+                    <i class="devicon-googlecloud-plain colored" title="Google Cloud"></i>
+                    <span class="skill-name">Google Cloud</span>
+                  {% elif tool|lower == 'git' %}
+                    <i class="devicon-git-plain colored" title="Git"></i>
+                    <span class="skill-name">Git</span>
+                  {% elif tool|lower == 'github' %}
+                    <i class="devicon-github-original colored" title="GitHub"></i>
+                    <span class="skill-name">GitHub</span>
+                  {% else %}
+                    <span class="skill-text">{{ tool }}</span>
+                  {% endif %}
+                  <span class="skill-glow"></span>
+                </span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
     </div>
 </section>
 

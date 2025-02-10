@@ -1,0 +1,71 @@
+{
+    "skills": [
+      {
+        "category": "Data Analysis & Science",
+        "tools": [
+          "Python",
+          "SQL",
+          "Statistical Analysis",
+          "Data Mining",
+          "Data Visualization"
+        ]
+      },
+      {
+        "category": "Data-Driven Decision Making",
+        "tools": [
+          "A/B Testing",
+          "Experimental Design",
+          "Data Storytelling"
+        ]
+      },
+      {
+        "category": "Data Visualization",
+        "tools": [
+          "Power-BI",
+          "Tabluea",
+          "Seaborn",
+          "Matplotlib",
+          "Plotly"
+        ]
+      },
+      {
+        "category": "Machine Learning & AI",
+        "tools": [
+          "TensorFlow",
+          "Deep Learning",
+          "Scikit-Learn",
+          "Predictive Modeling",
+          "Natural Language Processing",
+          "Pytorch",
+          "Keras"
+        ]
+      },
+      {
+        "category": "Software Engineering/Programming Language",
+        "tools": [
+          "Object-Oriented Programming(OOP)",
+          "Java",
+          "Python",
+          "C++",
+          "Rust"
+        ]
+      },
+      {
+        "category": "Cloud Computing",
+        "tools": [
+          "AWS",
+          "Azure",
+          "Google Cloud Platforms",
+          "Vultr",
+          "Hyperstack"
+        ]
+      },
+      {
+        "category": "Version Control",
+        "tools": [
+          "Git",
+          "Github"
+        ]
+      }
+    ]
+  }
