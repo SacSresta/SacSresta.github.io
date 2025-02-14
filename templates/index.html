@@ -13,15 +13,19 @@
             <span class="typed-words">Data-Scientist | Python Expert | AI/ML Engineer </span>
         </p>
         <div class="hero-buttons">
-            <a href="#projects" class="btn btn-primary">
-                <span class="btn-content">Explore My Work</span>
-                <span class="btn-glow"></span>
-            </a>|
-            <a href="#contact" class="btn btn-outline">
-                <span class="btn-content">Get In Touch</span>
-                <span class="btn-border"></span>
-            </a>
-        </div>
+          <a href="#projects" class="btn btn-primary">
+              <span class="btn-content">Explore My Work</span>
+              <span class="btn-glow"></span>
+          </a> |
+          <a href="#contact" class="btn btn-outline">
+              <span class="btn-content">Get In Touch</span>
+              <span class="btn-border"></span>
+          </a> |
+          <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn btn-secondary" download>
+              <span class="btn-content">Download Resume</span>
+              <span class="btn-glow"></span>
+          </a>
+      </div>
     </div>
 </section>
 
